@@ -1,13 +1,69 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+:root {
+  --primary: #bc4123;
+  --secondary: #2b3452;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  margin-left: 18px;
+  font-family: "Pangolin";
+  background: black;
+}
+
+* {
+  color: #fff;
+  margin: 0;
+}
+
+p {
+  margin: 20px 0;
+}
+
+header nav {
+  display: flex;
+  gap: 25px;
+  justify-content: end;
+  max-width: 100%;
+  margin: 20px auto;
+  margin-bottom: 20px;
+}
+
+header nav h1 {
+  margin-right: auto;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+header nav a {
+  text-decoration: none;
+  padding: 6px;
+  margin-right: 20px;
+  padding-top: 19px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+}
+
+header nav a.active {
+  background-color: yellow;
+  color: black;
+}
+
+.M {
+  color: rgba(253, 165, 1, 0.658);
+}
+
+.E {
+  color: yellow;
+}
+
+.A {
+  color: brown;
+}
+
+.L {
+  color: green;
 }
